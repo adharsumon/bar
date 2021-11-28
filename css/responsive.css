@@ -1,0 +1,293 @@
+/*// Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main-menu {
+        background: #2f2f2f;
+        width: 100%;
+        display: flex;
+    }
+    .main-menu .navbar-nav {
+        padding-bottom: 20px;
+        margin-left: 0 !important;
+    }
+    .main-menu .navbar-nav li a {
+        padding: 20px 25px;
+    }
+    .main-menu .navbar-nav li .submenu {
+        left: 100%;
+        top: 0 !important;
+    }
+    /*  */
+    .about-part.pt-100.pb-100.res {
+        padding-bottom: 50px;
+    }
+    .about-left {
+        margin-bottom: 45px;
+        justify-content: center;
+    }
+    .about-right-wrapper {
+        text-align: center;
+    }
+    /*  */
+    .our-services-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+    .single-service.ress.text-center.overflow-hidden {
+        margin-bottom: 30px;
+    }
+
+    /*  */
+    .our-pricing-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+
+    /*  */
+    .barbar-part.pt-100.pb-20.res {
+        padding: 50px 0;
+    }
+
+    /*  */
+    .testimonial-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+
+    /*  */
+    .appointment-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+
+    /*  */
+    .footer-left.ress {
+        margin-bottom: 30px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-menu {
+        background: #2f2f2f;
+        width: 100%;
+        display: flex;
+    }
+    .main-menu .navbar-nav {
+        padding-bottom: 20px;
+        margin-left: 0 !important;
+    }
+    .main-menu .navbar-nav li a {
+        padding: 20px 25px;
+    }
+    .main-menu .navbar-nav li .submenu {
+        left: 100%;
+        top: 0 !important;
+    }
+    /*  */
+    .section-title h3 {
+        font-size: 40px;
+    }
+    /*  */
+    .about-part.pt-100.pb-100.res {
+        padding-bottom: 50px;
+    }
+    .about-left {
+        margin-bottom: 45px;
+        justify-content: center;
+    }
+    .about-right-wrapper {
+        text-align: center;
+    }
+    .about-opening-time h5 {
+        font-size: 24px;
+    }
+    /*  */
+    .our-services-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+    .single-service.ress.text-center.overflow-hidden {
+        margin-bottom: 30px;
+    }
+    .our-services-part .section-title {
+        margin-bottom: 0;
+    }
+
+    /*  */
+    .our-pricing-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+
+    /*  */
+    .barbar-part.pt-100.pb-20.res {
+        padding: 50px 0;
+    }
+    .barbar-section-title.our-services-part .section-title {
+        margin-bottom: 30px;
+    }
+
+    /*  */
+    .testimonial-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+    .test-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*  */
+    .appointment-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+    .appointment-left h5 {
+        font-size: 40px;
+        margin-right: 100px;
+    }
+
+    /*  */
+    .footer-left.ress {
+        margin-bottom: 30px;
+    }
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .main-menu {
+        background: #2f2f2f;
+        width: 100%;
+        display: flex;
+    }
+    .main-menu .navbar-nav {
+        padding-bottom: 20px;
+        margin-left: 0 !important;
+    }
+    .main-menu .navbar-nav li a {
+        padding: 20px 25px;
+    }
+    .main-menu .navbar-nav li .submenu {
+        left: 100%;
+        top: 0 !important;
+    }
+    /*  */
+    .section-title h3 {
+        font-size: 40px;
+    }
+    /*  */
+    .banner-text {
+        width: 100% !important;
+    }
+    .banner-text h1 {
+        font-size: 45px !important;
+        margin-right: 100px;
+    }
+    .banner-text p {
+        line-height: 1.2;
+    }
+    /*  */
+    .about-part.pt-100.pb-100.res {
+        padding-bottom: 50px;
+    }
+    .about-left {
+        margin-bottom: 45px;
+        justify-content: center;
+    }
+    .about-right {
+        margin-left: 0;
+    }
+    .about-right-wrapper {
+        text-align: center;
+    }
+    .about-opening-time {
+        margin-bottom: 25px;
+    }
+    .about-opening-time h5 {
+        font-size: 24px;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .about-image-two {
+        width: 48% !important;
+    }
+    /*  */
+    .our-services-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+    .single-service.ress.text-center.overflow-hidden {
+        margin-bottom: 30px;
+    }
+    .our-services-part .section-title {
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    /*  */
+    .our-pricing-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+    .pricing-title .section-title {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .single-price {
+        padding-right: 15px;
+    }
+
+    /*  */
+    .barbar-part.pt-100.pb-20.res {
+        padding: 50px 0;
+    }
+    .barbar-section-title.our-services-part .section-title {
+        margin-bottom: 30px;
+    }
+
+    /*  */
+    .testimonial-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+    .test-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*  */
+    .appointment-part.pt-100.pb-100.res {
+        padding: 50px 0;
+    }
+    .appointment-left h5 {
+        font-size: 40px;
+        margin-right: 100px;
+    }
+    .appointment-left .appointment-info p {
+        width: 100%;
+    }
+
+    /*  */
+    .footer-left.ress {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer-left p {
+        text-align: center;
+        width: 100%;
+    }
+    .footer-social ul {
+        justify-content: center;
+    }
+    .footer-information {
+        text-align: center;
+    }
+    .footer-information.res {
+        margin-bottom: 30px;
+    }
+    .footer-bottom.pt-100 {
+        padding-top: 15px;
+    }
+    .footer-bottom p {
+        line-height: 1.6;
+    }
+}
